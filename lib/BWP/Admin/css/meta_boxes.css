@@ -1,0 +1,12 @@
+.bwp-meta-box-table {
+	width: 100%;
+}
+
+.bwp-meta-box-table textarea {
+	width: 99%;
+}
+
+.bwp-meta-box-table td {
+	padding: 5px 10px 5px 0;
+	font-size: 12px;
+}

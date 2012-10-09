@@ -1,0 +1,58 @@
+﻿/*
+ * SimpleModal Basic Modal Dialog
+ */
+
+#spto_aurl_popup {display:none;}
+
+/* Overlay */
+#simplemodal-overlay {background-color:#000; cursor:wait;}
+
+/* Container */
+#simplemodal-container {height:430px; width:550px; color:#000000; background-color:#ffffff; border:4px solid #444; padding:12px;}
+#simplemodal-container .simplemodal-data {padding:8px;}
+#simplemodal-container code {background:#141414; border-left:3px solid #65B43D; color:#bbb; display:block; font-size:12px; margin-bottom:12px; padding:4px 6px 6px;}
+#simplemodal-container a {color:#ddd;}
+#simplemodal-container a.modalCloseImg {background:url(../img/basic/x.png) no-repeat; width:25px; height:29px; display:inline; z-index:3200; position:absolute; top:-15px; right:-16px; cursor:pointer;}
+#simplemodal-container h3 {color:#84b8d9;}
+
+/* AURL */
+#spto_aurl_popup table td, #spto_aurl_popup table th {
+	padding: 2px 5px;
+	vertical-align: middle;
+}
+
+#spto_aurl_popup table th {
+	font-weight: bold;
+	font-size: 1.1em;
+	padding-top: 0px;
+}
+
+#spto_aurl_popup input {
+/*	padding: 1px 0px;*/
+}
+
+#spto_aurl_popup input.aurl_inp_txt {
+	width: 200px;
+}
+
+#spto_aurl_popup form p {
+	margin: 0;
+	padding: 0;
+}
+
+#spto_aurl_popup .aurl_field_error {
+	border-color: red;
+}
+
+#spto_aurl_popup .aurl_separator {
+	width: 80px;
+	font-weight: bold;
+	font-size: 2em;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.aurl_reg_success {
+	color: green;
+	text-align: center;
+}

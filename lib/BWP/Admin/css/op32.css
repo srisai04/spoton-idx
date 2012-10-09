@@ -1,0 +1,332 @@
+/* For WordPress of older versions */
+.nav-tab{border-style:solid;background-color: #f2f2f2;border-color:#e5e5e5 #e5e5e5 #f9f9f9;border-width:1px 1px 0;color:#c1c1c1;text-shadow:rgba(255,255,255,1) 0 1px 0;font-size:12px;line-height:16px;display:inline-block;padding:4px 14px 3px;text-decoration:none;margin:0 6px -1px 0;-moz-border-radius:5px 5px 0 0;-webkit-border-top-left-radius:5px;-webkit-border-top-right-radius:5px;-khtml-border-top-left-radius:5px;-khtml-border-top-right-radius:5px;border-top-left-radius:5px;border-top-right-radius:5px;}.nav-tab-active{background-color: #ececec;border-width:1px;border-color:#cccccc #cccccc #ececec;color:#333333;}.nav-tab:hover{border-color:#cccccc #cccccc #ececec; color: #555555;}.nav-tab-active:hover{background-color:#ececec; color:#333333;}h2.nav-tab-wrapper,h3.nav-tab-wrapper{border-bottom:1px solid #ccc;padding-bottom:0;}h2 .nav-tab{padding:4px 20px 3px;font: normal bold 24px/35px Arial, Helvetica, sans-serif;}
+
+#wpwrap {
+	background-color: #f9f9f9;
+}
+
+.bwp-wrap {
+	margin: 0 19px 0 4px;
+}
+
+.bwp-wrap * {
+	/*font-family: Verdana, Arial, Helvetica, sans-serif;*/
+}
+
+.bwp-wrap h2 {
+	/*color: #464646;*/
+}
+
+.bwp-wrap h2 {
+	/*font: italic 24px/35px Georgia,"Times New Roman","Bitstream Charter",Times,serif;*/
+	font-size: 24px; /* op32 - 3 */
+	font-weight: normal;
+	line-height: 35px;
+	margin: 0;
+	padding: 13px 15px 3px 0;
+	text-shadow: 0 1px 0 #FFFFFF;
+}
+
+.bwp-wrap .icon32 {
+	height: 34px;
+	margin: 8px 8px 0 0;
+}
+
+.bwp-wrap div.bwp-notices {
+	margin: 10px 10px 0px 10px;
+}
+
+.bwp-wrap ul, .bwp-wrap ol {
+	margin: 0px;
+}
+
+div.bwp-notices p {
+	font-size: 13px;
+}
+
+div.bwp-notices {
+	background-color: #FFFFE0;
+	border-color: #E6DB55;
+}
+
+div.bwp-errors {
+	background-color: #FFEBE8;
+	border-color: #CC0000;
+}
+
+div.bwp-notices {
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	border-radius: 3px;
+	border-style: solid;
+	border-width: 1px;
+	margin: 10px 0px 0px 0px;
+	padding: 0 0.6em;
+}
+
+div.bwp-notices p {
+	margin: 0.5em 0;
+	padding: 2px;
+}
+
+/* BWPP Specific CSS */
+.bwp-option-box, .bwp-option-box-inside {
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	-khtml-border-radius: 6px;
+	border-radius: 6px;
+    border-style: solid;
+    border-width: 1px;
+	border-color: #DFDFDF;
+}
+
+.bwp-option-box  {
+	background: url("../images/gray-grad.png") repeat-x scroll left top #DFDFDF;
+	background-color: #DFDFDF;
+}
+
+.bwp-option-box .bwp-option-box-inside {
+	margin: 3px;
+	padding: 0 0px 11px 0px;
+	background-color: #ffffff;
+	border-color: #aaaaaa;
+}
+
+.bwp-option-box-inside h3 {
+	background: none;
+	cursor: default;
+	font-size: 1.3em;
+}
+
+.bwp-option-page {
+	/*margin-top: 1em;*/
+}
+
+.bwp-option-page p {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	zoom: 1;
+}
+
+.bwp-option-page li.clear, .bwp-option-page div.clear {
+	clear: left;
+	margin: 1.2em 0 0 0; /* op32 */
+	zoom: 1;
+}
+
+.bwp-option-page li.clear:after, .bwp-option-page div.clear:after {content:".";display:block;height:0;font-size:0;line-height:0;clear:both;visibility:hidden}
+
+.bwp-option-page li.bwp-li-item, .bwp-option-page li.bwp-li-heading div.clear {
+	padding: 0px 10px;
+}
+
+.bwp-option-page li.bwp-li-heading {
+	padding: 0px;
+}
+
+.bwp-option-page li.bwp-li-heading h3, .bwp-option-page li.bwp-li-heading h4 {
+	margin: 1em 10px 5px 10px;
+}
+
+.bwp-option-page p.submit {
+	clear: both;
+	padding: 0 10px;
+	margin-top: 1em;
+}
+
+.bwp-wrap .bwp-option-page-tabs {
+	/*border-bottom: 1px solid #CCCCCC;*/
+	padding-bottom: 0px;
+	position: relative;
+	z-index: 1000;
+	margin-bottom: 0px;
+}
+
+.bwp-option-page-tabs a {
+	font-size: 17px;
+}
+
+.bwp-option-page-tabs a.version {
+	font-size: 12px;
+	line-height: 23px;
+	background-color: transparent;
+	font-style: italic;
+}
+
+.bwp-option-page .bwp-option-page-heading-desc {
+	font-size: 1.12em;
+	line-height: 1.5;
+	background-color: #f8f8f8;
+	border: 1px dashed #cccccc;
+	border-right: none;
+	border-left: none;
+	padding: 5px 10px;
+	margin-top: 1em;
+	/*margin-bottom: 1.3em;*/
+}
+
+.bwp-opton-page-label {
+	display: block;
+	float: left;
+	width: 200px;
+	margin: 3px 0 0 0;
+}
+
+.type-checkbox {
+	margin-top: 0px;
+}
+
+p.bwp-option-page-inputs {
+	margin: 0 0 5px 220px;
+	padding: 0;
+}
+
+.bwp-option-page-inputs input, .bwp-option-page-inputs textarea {
+	margin: 0 2px 2px 0;
+	vertical-align: middle;
+}
+
+.bwp-option-page-inputs input[type="checkbox"] {
+	margin-bottom: 5px;
+}
+
+.bwp-option-page-inputs textarea {
+	vertical-align: top;
+}
+
+.bwp-option-page-inputs label {
+	margin: 0;
+}
+
+.bwp-option-page-inputs select {
+	margin: 1px 0 0 0;
+}
+
+.bwp-option-page-inputs input[type="checkbox"] {
+	margin-left: 2px;
+}
+
+/* Misc */
+.bwp-option-page li .bwp-green {
+	color: #009900;
+}
+
+.bwp-option-page li .bwp-red {
+	color: #FF0000;
+}
+
+.bwp-option-page li .bwp-neutral {
+	color: #999999;
+}
+
+.bwp-option-page .bwp-ajax-loadera {
+	display: inline-block;
+	background: transparent url("../images/icon-loader.gif") no-repeat center;
+	width: 96px;
+	height: 12px;
+	margin-right: 5px; vertical-align: middle;
+}
+
+.bwp-has-loadera {
+	background: transparent url("../images/icon-loader.gif") no-repeat top 98%;
+}
+
+/* Tables */
+.bwp-table {
+	width: 100%;
+}
+
+.bwp-table tr td, .bwp-table tr th {
+	padding: 3px 10px;
+}
+
+.bwp-table td a {
+	text-decoration: none;
+}
+
+/* UI Buttons */
+.ui-icons li {
+	cursor: pointer;
+	float: left;
+	list-style: none outside none;
+	margin: 2px;
+	padding: 1px 2px;
+	position: relative;
+}
+
+/* Info things*/
+#icon-betterwp-net {
+	background: url("betterwp.jpg") no-repeat transparent;
+	border: 1px solid #E3E3E3;
+	height: 32px;
+	width: 32px;
+}
+
+#icon-bwp-plugin {
+	background-repeat: no-repeat;
+	background-position: left center;
+	margin-top: 20px; margin-left: 12px;
+	width: 36px;
+}
+
+#bwp-info-place {
+	float: right;
+	margin: 0 0 10px 10px;
+}
+
+#bwp-donation, #bwp-contact {
+	width: 255px;
+	padding: 7px; padding-bottom: 0px;
+	background-color: #ffffff;
+	border: 1px solid #cccccc;
+	text-align: center;
+}
+
+#bwp-donation p {
+	margin: 0.5em 0 1em 0;
+}
+
+#bwp-info-place small {
+	font-size: 0.8em;
+}
+
+#bwp-donation .paypal-submit {
+	vertical-align: bottom;
+	display: inline-block;
+	margin: 0 0 1px 2px;
+	padding: 0px;
+}
+
+#bwp-seperator {
+	width: 271px;
+}
+
+#bwp-contact  {
+	text-align: left;
+	padding: 7px;
+}
+
+#bwp-contact a {
+	display: block;
+	height: 20px;
+	font-size: 0.8em;
+	padding-left: 25px;
+}
+
+#bwp-contact .bwp-rss {
+	background: transparent url("../images/icon-rss.png") no-repeat left center;
+}
+
+#bwp-contact .bwp-twitter {
+	background: transparent url("../images/icon-twitter.png") no-repeat left center;
+}
+
+.bwp-li-item .clearfix:after {
+    clear: both;
+    content: " ";
+    display: block;
+    font-size: 0;
+    height: 0;
+    visibility: hidden;
+}

@@ -1,0 +1,41 @@
+.spoton_sff_fields h4 {
+	font-size: 1.1em;
+	text-decoration: underline;
+}
+
+.spoton_sff_fields th {
+	text-align: left;
+}
+
+.spoton_sff_fields .sff_field_label {
+	width: 190px;
+}
+
+.sff_dnm_trans_button {
+	margin-top: 5px;
+}
+
+.sff_dnm_counter 
+{
+	color: #cccccc;
+	font-style: italic;
+}
+
+.wp-admin select.sff_dnm_v {
+	height: 160px;
+	width: 200px;
+	margin-top: 10px;
+}
+
+.sff_dnm_s 
+{
+    display:none;
+}
+
+.bwp-hidden {
+	display: none;
+}
+
+.bwp-td-med {
+	width: 200px;
+}

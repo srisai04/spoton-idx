@@ -1,0 +1,4 @@
+_notes/
+cache/
+*.gz
+*.xml.gz

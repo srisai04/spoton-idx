@@ -1,0 +1,2 @@
+/* IE 6 hacks */
+.jqmWindow a.jqmClose {background:none; right:-11px; width:22px; height:26px; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/x.png',sizingMethod='scale');}
