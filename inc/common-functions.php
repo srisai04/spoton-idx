@@ -28,6 +28,8 @@ function spoton_get_default_location($sv)
 {
 	return (is_array($sv) && 3 < sizeof($sv)) ? explode(',' , $sv[2]) : array(0, 0);
 }
+}
+}
 
 function spoton_get_sff_filters()
 {
