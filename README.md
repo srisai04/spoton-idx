@@ -1,0 +1,4 @@
+spoton-idx
+==========
+
+plugin
